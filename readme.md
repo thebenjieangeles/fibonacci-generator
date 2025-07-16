@@ -1,0 +1,37 @@
+/\*\*
+
+- # Fibonacci Generator
+-
+- This file contains a JavaScript function called `fibonacciGenerator(n)`
+- that returns the first `n` numbers in the Fibonacci sequence.
+-
+- ## 📌 What is the Fibonacci Sequence?
+- The Fibonacci sequence is a series of numbers where each number is
+- the sum of the two preceding ones. It starts like this:
+-
+- 0, 1, 1, 2, 3, 5, 8, 13, ...
+-
+- ## 📄 Function Overview
+-
+- - Input: A number `n` representing how many Fibonacci numbers to generate
+- - Output: An array containing the first `n` numbers in the Fibonacci sequence
+-
+- ## ✅ Example Usage
+-
+- console.log(fibonacciGenerator(5));
+- // Output: [0, 1, 1, 2, 3]
+-
+- ## 🔧 How It Works
+-
+- 1.  Creates an empty array `output`.
+- 2.  Loops from `i = 0` to `i < n`:
+- - If `i` is 0, adds `0` to the array.
+- - If `i` is 1, adds `1`.
+- - Else, adds the sum of the two previous values.
+- 3.  Returns the full `output` array.
+-
+- ## 💡 Notes
+-
+- - If `n <= 0`, the function returns an empty array.
+- - Efficient and easy to read iterative approach.
+    \*/
